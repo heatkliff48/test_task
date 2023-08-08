@@ -1,0 +1,25 @@
+.main {
+  max-width: 1440px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+}
+
+.header {
+  text-align: center;
+  color: #000;
+  font-family: 'Styrene A Web';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.study_container {
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    max-width: 375px;
+  }
+}

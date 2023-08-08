@@ -1,0 +1,15 @@
+.custom-accordion-toggle {
+  text-align: left;
+  width: 100%;
+  text-decoration: none;
+}
+
+.accordion-icon {
+  float: left;  /* Поместите иконку слева */
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-accordion-toggle.collapsed .accordion-icon {
+  transform: rotate(45deg);  
+}

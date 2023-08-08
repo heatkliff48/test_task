@@ -1,0 +1,68 @@
+.programm_block {
+  display: block;
+  margin: auto;
+  max-width: 1256px;
+  margin-bottom: 68px;
+}
+
+h3 {
+  position: absolute;
+  margin-top: 0;
+  color: #000;
+  font-family: 'Styrene A Web';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+}
+
+.line {
+  width: 140.891px;
+  height: 2px;
+  background: #ff3535;
+  margin-bottom: 29px;
+}
+
+.title {
+  width: 140.891px;
+  color: #000;
+  font-family: 'Styrene A Web';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.flex_container {
+  display: flex;
+
+}
+
+.block_column {
+  display: flex;
+  width: 614px;
+  margin-top: 54px;
+}
+
+.block_item {
+  display: flex;
+  width: 373px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+p {
+  color: #000;
+  font-family: 'Styrene A Web';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-align: left;
+}
+
+li {
+  color: rgba(255, 53, 53, 1);
+}
